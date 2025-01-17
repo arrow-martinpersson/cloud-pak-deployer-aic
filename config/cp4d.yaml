@@ -369,7 +369,7 @@ cp4d:
     - model_id: slate-125m-english-rtrvr
       state: installed
     - model_id: wdu
-    state: installed
+      state: installed
       
   - name: watsonx_data
     description: watsonx.data
