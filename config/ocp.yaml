@@ -7,7 +7,7 @@ global_config:
 
 openshift:
 - name: "{{ env_id }}"
-  ocp_version: 4.15
+  ocp_version: 4.16
   cluster_name: PATCHED_BY_JOB
   domain_name: PATCHED_BY_JOB
   gpu:
@@ -18,9 +18,9 @@ openshift:
   mcg:
     install: False
     storage_type: storage-class
-    storage_class: ibm-spectrum-scale-sc
+    storage_class: fs2-csi-lt #ibm-spectrum-scale-sc
   openshift_storage:
   - storage_name: custom
     storage_type: custom
-    ocp_storage_class_file: ibm-spectrum-scale-sc
-    ocp_storage_class_block: ibm-spectrum-scale-sc
+    ocp_storage_class_file: fs2-csi-lt #ibm-spectrum-scale-sc
+    ocp_storage_class_block: fs2-csi-lt #ibm-spectrum-scale-sc
