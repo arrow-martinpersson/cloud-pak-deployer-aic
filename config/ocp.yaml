@@ -16,7 +16,7 @@ openshift:
     install: True
     channel: auto
   mcg:
-    install: False
+    install: True
     storage_type: storage-class
     storage_class: fs2-csi-lt #ibm-spectrum-scale-sc
   openshift_storage:
