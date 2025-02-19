@@ -28,7 +28,7 @@ cp4d:
   cp4d_production_license: True
   accept_licenses: True
   db2u_limited_privileges: False
-  use_fs_iam: False
+  use_fs_iam: True
   operators_project: cpd-operators
   state: installed
   cartridges:
