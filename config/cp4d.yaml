@@ -364,9 +364,9 @@ cp4d:
       state: installed
     - model_id: multilingual-e5-large
       state: installed
-    - model_id: slate-30m-english-rtrvr
+    - model_id: ibm-slate-30m-english-rtrvr
       state: installed
-    - model_id: slate-125m-english-rtrvr
+    - model_id: ibm-slate-125m-english-rtrvr
       state: installed
     - model_id: wdu
       state: installed
