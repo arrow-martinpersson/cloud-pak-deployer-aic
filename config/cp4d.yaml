@@ -331,10 +331,10 @@ cp4d:
       state: removed
     - model_id: llama-3-1-8b-instruct
       state: removed
-    - model_id: llama-3-1-70b-instruct
-      state: installed
     - model_id: llama-3-405b-instruct
       state: removed
+    - model_id: llama-3-3-70b-instruct
+      state: installed
     - model_id: meta-llama-llama-3-8b-instruct
       state: removed
     - model_id: meta-llama-llama-3-70b-instruct
