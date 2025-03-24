@@ -299,9 +299,9 @@ cp4d:
       state: removed
     - model_id: ibm-granite-13b-chat-v2
       state: installed
-      model_install_parameters:
-        nodeSelector:
-          kubernetes.io/hostname: hostname
+     # model_install_parameters:
+     #   nodeSelector:
+     #     kubernetes.io/hostname: hostname
     - model_id: ibm-granite-13b-instruct-v2
       state: removed
     - model_id: ibm-granite-20b-multilingual
