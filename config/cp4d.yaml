@@ -273,6 +273,12 @@ cp4d:
     installation_options:
       tuning_disabled: true
     models:
+    # model_install_parameters can be used for sharding and node pinning according to
+    # instructions at https://www.ibm.com/docs/en/software-hub/5.1.x?topic=setup-adding-foundation-models
+    # model_install_parameters:
+    # shards: 2
+    # nodeSelector:
+    # kubernetes.io/hostname: hostname
     - model_id: allam-1-13b-instruct
       state: removed
     - model_id: codellama-codellama-34b-instruct-hf
@@ -293,6 +299,9 @@ cp4d:
       state: removed
     - model_id: ibm-granite-13b-chat-v2
       state: installed
+      model_install_parameters:
+        nodeSelector:
+          kubernetes.io/hostname: hostname
     - model_id: ibm-granite-13b-instruct-v2
       state: removed
     - model_id: ibm-granite-20b-multilingual
