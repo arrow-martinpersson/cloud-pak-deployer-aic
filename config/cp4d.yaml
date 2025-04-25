@@ -316,6 +316,8 @@ cp4d:
       state: removed
     - model_id: granite-3b-code-instruct
       state: removed
+    - model_id: granite-3-2-8b-instruct
+      state: removed
     - model_id: granite-8b-code-instruct
       state: removed
     - model_id: granite-20b-code-instruct
