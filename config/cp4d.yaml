@@ -224,7 +224,7 @@ cp4d:
 
   - name: syntheticdata
     description: Synthetic Data Generator
-    state: removed
+    state: installed
 
   - name: voice-gateway
     description: Voice Gateway
