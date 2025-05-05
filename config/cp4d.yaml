@@ -299,14 +299,14 @@ cp4d:
       state: removed
     - model_id: ibm-granite-13b-chat-v2
       state: installed
-      model_install_parameters:
-        nodeSelector:
-          kubernetes.io/hostname: arw-aicdgx-w04
+   #   model_install_parameters:
+    #    nodeSelector:
+     #     kubernetes.io/hostname: arw-aicdgx-w04
     - model_id: ibm-granite-13b-instruct-v2
       state: installed
-      model_install_parameters:
-        nodeSelector:
-          kubernetes.io/hostname: arw-aicdgx-w04
+    #  model_install_parameters:
+     #   nodeSelector:
+      #    kubernetes.io/hostname: arw-aicdgx-w04
     - model_id: ibm-granite-20b-multilingual
       state: removed
     - model_id: granite-3-2b-instruct
@@ -349,9 +349,9 @@ cp4d:
       state: removed
     - model_id: llama-3-3-70b-instruct
       state: installed
-      model_install_parameters:
-        nodeSelector:
-          kubernetes.io/hostname: arw-aicdgx-w04
+     # model_install_parameters:
+      #  nodeSelector:
+       #   kubernetes.io/hostname: arw-aicdgx-w04
     - model_id: granite-vision-3-2-2b
       state: removed
     - model_id: meta-llama-llama-3-8b-instruct
