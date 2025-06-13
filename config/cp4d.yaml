@@ -356,7 +356,7 @@ cp4d:
       state: installed
       model_install_parameters:
       nodeSelector:
-        nvidia.com/gpu.product: NVIDIA-L4
+        "nvidia.com/gpu.product: NVIDIA-L4"
     - model_id: meta-llama-llama-3-8b-instruct
       state: removed
     - model_id: meta-llama-llama-3-70b-instruct
