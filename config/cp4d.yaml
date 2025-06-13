@@ -353,10 +353,10 @@ cp4d:
       #  nodeSelector:
       #    kubernetes.io/hostname: arw-aicdgx-w04
     - model_id: granite-vision-3-2-2b
-     	state: installed
-	    model_install_parameters:
-    	  nodeSelector:
-    		  nvidia.com/gpu.product: NVIDIA-L4
+      state: installed
+      model_install_parameters:
+      	nodeSelector:
+       	 nvidia.com/gpu.product: NVIDIA-L4
     - model_id: meta-llama-llama-3-8b-instruct
       state: removed
     - model_id: meta-llama-llama-3-70b-instruct
