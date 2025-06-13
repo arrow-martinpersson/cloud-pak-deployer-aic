@@ -298,7 +298,7 @@ cp4d:
     - model_id: ibm-granite-8b-japanese
       state: removed
     - model_id: ibm-granite-13b-chat-v2
-      state: installed
+      state: removed
       #model_install_parameters:
       #  nodeSelector:
       #    kubernetes.io/hostname: arw-aicdgx-w04
@@ -348,12 +348,15 @@ cp4d:
     - model_id: llama-3-405b-instruct
       state: removed
     - model_id: llama-3-3-70b-instruct
-      state: installed
+      state: removed
       #model_install_parameters:
       #  nodeSelector:
       #    kubernetes.io/hostname: arw-aicdgx-w04
     - model_id: granite-vision-3-2-2b
-      state: removed
+     	state: installed
+	    model_install_parameters:
+    	  nodeSelector:
+    		  nvidia.com/gpu.product: NVIDIA-L4
     - model_id: meta-llama-llama-3-8b-instruct
       state: removed
     - model_id: meta-llama-llama-3-70b-instruct
