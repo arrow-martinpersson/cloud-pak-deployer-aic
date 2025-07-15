@@ -2,7 +2,7 @@
 cp4d:
 - project: cpd
   openshift_cluster_name: "{{ env_id }}"
-  cp4d_version: 5.1.3
+  cp4d_version: 5.2.0
   cp4d_entitlement: 
   - cpd-enterprise
   # - cpd-standard
@@ -349,14 +349,11 @@ cp4d:
       state: removed
     - model_id: llama-3-3-70b-instruct
       state: removed
-      #model_install_parameters:
-      #  nodeSelector:
-      #    kubernetes.io/hostname: arw-aicdgx-w04
     - model_id: granite-vision-3-2-2b
       state: installed
-      model_install_parameters:
-      nodeSelector:
-        "nvidia.com/gpu.product: NVIDIA-L4"
+      #model_install_parameters:
+      #nodeSelector:
+      #  "nvidia.com/gpu.product: NVIDIA-L4"
     - model_id: meta-llama-llama-3-8b-instruct
       state: removed
     - model_id: meta-llama-llama-3-70b-instruct
