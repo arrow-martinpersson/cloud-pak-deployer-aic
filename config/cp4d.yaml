@@ -405,13 +405,12 @@ cp4d:
 
   - name: watsonx_orchestrate
     description: watsonx.orchestrate
-    app_connect:
-      app_connect_project: ibm-app-connect
-      app_connect_case_version: 12.5.0
-      app_connect_channel_version: v12.5
     installation_options:
       watsonx_orchestrate_watsonx_ai_type: true
-    state: removed
+    instances:
+    - name: wxo-instance
+      description: "watsonx Orchestrate instance"
+    state: installed
 
   - name: wca-ansible
     description: watsxonx Code Assistant for Red Hat Ansible Lightspeed
