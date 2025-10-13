@@ -200,7 +200,7 @@ cp4d:
     
   - name: openpages
     description: OpenPages
-    state: removed
+    state: installed
 
   # For Planning Analytics, the case version is needed due to defect in olm utils
   - name: planning-analytics
