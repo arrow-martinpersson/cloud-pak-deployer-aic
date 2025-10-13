@@ -1,4 +1,4 @@
-# cloud-pak-deployer-storage-fusion
+# cloud-pak-deployer-aic
 
 This repo is using [Cloud pak deployer](https://ibm.github.io/cloud-pak-deployer).
 
