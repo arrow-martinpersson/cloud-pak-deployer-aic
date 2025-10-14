@@ -18,9 +18,9 @@ openshift:
   mcg:
     install: True
     storage_type: storage-class
-    storage_class: fs2-csi-lt #ibm-spectrum-scale-sc
+    storage_class: ocs-storagecluster-cephfs #fs2-csi-lt #ibm-spectrum-scale-sc
   openshift_storage:
   - storage_name: custom
     storage_type: custom
-    ocp_storage_class_file: fs2-csi-lt #ibm-spectrum-scale-sc
-    ocp_storage_class_block: fs2-csi-lt #ibm-spectrum-scale-sc
+    ocp_storage_class_file: ocs-storagecluster-cephfs #fs2-csi-lt #ibm-spectrum-scale-sc
+    ocp_storage_class_block: ocs-storagecluster-cephfs #fs2-csi-lt #ibm-spectrum-scale-sc
